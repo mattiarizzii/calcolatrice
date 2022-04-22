@@ -13,7 +13,7 @@ public class Calculator {
 		operator = input.next().charAt(0);
 		System.out.println("Enter first number");
 		number1 = input.nextBigDecimal();
-		System.out.println("Enter second numbers");
+		System.out.println("Enter second numbers+");
 		number2 = input.nextBigDecimal();
 		
 		switch(operator){
@@ -36,7 +36,7 @@ public class Calculator {
 				
 		}
 		input.close();
-		System.out.println(number1.doubleValue() + operator + number2.doubleValue() + " = " + result );
+		System.out.println("result = " + result );
 
 	}
 }
